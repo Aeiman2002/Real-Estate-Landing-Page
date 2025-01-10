@@ -1,8 +1,25 @@
-
-.section1{
-    background-image: linear-gradient(#C1DEE8, #FBD9B9);
+.navbar {
+    padding: 5px 10px 5px 10px !important;
 }
-.main-img{
-    width: 1600px !important;
-    height: 500px !important;
+
+.navbar-nav {
+    gap: 10px !important;
+}
+
+.search-icon {
+    gap: 10px !important;
+}
+
+.btn-form {
+    gap: 10px !important;
+}
+.img-fluid{
+    width: 100% !important;
+    height: 667px; 
+}
+.landing-page {
+    box-sizing: border-box !important;
+}
+.section1 {
+    background-image: linear-gradient(#C1DEE8, #FBD9B9);
 }

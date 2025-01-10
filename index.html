@@ -16,7 +16,8 @@
 
 <body>
   <!-- Navigation bar -->
-  <nav class="navbar container-fluid navbar-expand-lg bg-body-tertiary hstack gap-3 p-sm-0">
+  <nav
+    class="navbar container-fluid navbar-expand-lg bg-body-tertiary hstack gap-3 p-sm-0 shadow p-3 mb-5 bg-body-tertiary rounded sticky-top">
     <div class="container-fluid d-flex py-2 d-sm-flex rounded-pill">
       <a class="navbar-brand" href="#">
         <img src="Images/Logo.png" alt=""></a>
@@ -42,10 +43,12 @@
             <a class="nav-link" href="#">Listing</a>
           </li>
         </ul>
-        <img src="Images/search-normal.png" alt="">
-        <form class="d-flex align-items-center gap-2 justify-content-md-end ms-auto" role="contact">
-            <a href="#">Other Services</a>
-          <button class="btn btn-outline-success" type="submit">Contact us</button>
+        <div class="search-icon">
+          <img src="Images/search-normal.png" alt="">
+        </div>
+        <form class="d-flex align-items-center gap-2 justify-content-md-end ms-auto btn-form" role="contact">
+          <a href="#">Other Services</a>
+          <button class="btn btn-outline-success rounded-pill" type="submit">Contact us</button>
         </form>
       </div>
     </div>
@@ -53,9 +56,8 @@
   <!-- Nanbar End -->
 
   <!-- Main Section Start -->
-   <!-- background color -->
-  <div class="card section1 p-sm-5 mb-sm-3">
-    
+  <!-- background color -->
+  <div class="card section1 p-sm-3 mb-sm-3 m-3">
     <div class="row g-0">
       <div class="col-md-8">
         <div class="card-body lh-lg pt-5">
@@ -64,10 +66,10 @@
           <p class="card-text"><small class="text-body-secondary">Your will have everything nearby supermarket, buses ,
               station, the carmen neighborhood, etc</small></p>
           <div class="input-group rounded-pill mb-3 d-flex bg-light">
-            <input type="text" class="form-control email-field" placeholder="Enter your Email" aria-label="Enter your Email"
-              aria-describedby="button-addon2">
-            <button class="btn ms-0 rounded-pill btn-outline-secondary btn-dark" type="button"
-              id="button-addon2">Get a Quote</button>
+            <input type="text" class="form-control email-field" placeholder="Enter your Email"
+              aria-label="Enter your Email" aria-describedby="button-addon2">
+            <button class="btn ms-0 rounded-pill btn-outline-secondary btn-dark" type="button" id="button-addon2">Get a
+              Quote</button>
           </div>
           <!-- <img src="Images/email button.png" alt=""> -->
         </div>
@@ -87,18 +89,18 @@
   <!-- Text End -->
 
   <!-- Mini Card Section Start -->
-  <div class="d-flex justify-content-center">
-    <div>
+  <div class="container text-center">
+    <div class="col">
       <img src="Images/messages.png" alt="">
       <h6>Answer questions</h6>
       <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
     </div>
-    <div>
+    <div class="col">
       <img src="Images/sms-tracking.png" alt="">
       <h6>Select a quote</h6>
       <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
     </div>
-    <div>
+    <div class="col">
       <img src="Images/pencil.png" alt="">
       <h6>Get registered</h6>
       <p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
@@ -107,11 +109,10 @@
 
   <!-- Another Text Section -->
   <div>
-    <p>Best Project of the Years</p>
+    <h6>Best Project of the Years</h6>
     <div class="d-flex">
-      <h6>Our recent projects</h6>
-      <img src="Images/arrow-left.png" alt="" width="30px">
-      <img src="Images/arrow right.png" alt="">
+      <h1>Our recent projects</h1>
+      <img src="Images/arrow group.png" alt="">
     </div>
   </div>
 
