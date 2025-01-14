@@ -56,6 +56,12 @@
     font-size: 52px;
     color: black;
 }
-.main2-img{
-    height: ;
+.card-title{
+    font-size: 39px;
+    font-weight: 600;
+    color: black;
+}
+.card-text{
+    color: black;
+    
 }
