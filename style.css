@@ -103,7 +103,7 @@ p{
     }
     .email-input{
         padding: .375rem .75rem !important;
-        width: 180px;
+        width: 150px !important;
         height: 50px;
         font-size: 1rem !important;
         font-weight: 100 !important;
@@ -117,7 +117,7 @@ p{
         position: absolute;
         height: 50px;
         font-size: 12px;
-        width: 100px;
+        width: 80px !important;
     }
     ul{
         background-color: white !important;
