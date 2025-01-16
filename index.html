@@ -18,7 +18,7 @@
   <!-- Navigation bar -->
   <nav
     class="navbar container-fluid navbar-expand-lg bg-body-tertiary hstack gap-3 p-sm-0 shadow p-3 mb-5 bg-body-tertiary rounded sticky-top">
-    <div class="container-fluid d-flex py-2 d-sm-flex rounded-pill navbar-color navbar-set">
+    <div class="container-fluid d-flex py-2 d-sm-flex rounded-pill sm-border-0 navbar-color navbar-set">
       <a class="navbar-brand ps-3" href="#">
         <img src="Images/Logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -27,7 +27,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul
-          class="navbar-nav justify-content-evenly mb-2 mb-lg-0 text-center ms-auto bg-white rounded-pill p-2 md-border-0">
+          class="navbar-nav justify-content-evenly mb-2 mb-lg-0 text-center ms-auto md-bg-white rounded-pill p-2 md-border-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">About us</a>
           </li>
@@ -47,7 +47,7 @@
             <img src="Images/search-normal.png" alt="" width="25px" height="30px">
           </li>
         </ul>
-        <form class="d-flex align-items-center gap-2 justify-content-md-end ms-auto btn-form " role="contact">
+        <form class="d-flex  ma-flex-column align-items-center gap-2 justify-content-md-center ms-auto btn-form flex-md-row md-align-items-center last-part-nav" role="contact">
           <a href="#">Other Services</a>
           <button class="btn btn-outline-success rounded-pill" type="submit">Contact us</button>
         </form>
@@ -64,8 +64,8 @@
         <div class="col-md-6">
           <div class="card-body">
             <p class="card-text text-black">Welcome to Realstate</p>
-            <h1 class="fw-bolder text-black main-heading">Manage Your </h1>
-            <h1 class="fw-bolder text-black main-heading">Property</h1>
+            <h1 class="fw-bolder text-black main-heading sm-fs-3">Manage Your </h1>
+            <h1 class="fw-bolder text-black main-heading sm-fs-3">Property</h1>
             <p class="card-text">Your will have everything nearby supermarket, buses,
               station, the carmen neighborhood, etc</p>
             <div>
@@ -115,7 +115,7 @@
     <h6 class="fw-bolder text-black">Best Project of the Years</h6>
     <div class="d-flex justify-content-between">
       <h1 class="fw-bolder text-black">Our recent projects</h1>
-      <img src="Images/arrow group.png" alt="">
+      <img src="Images/arrow group.png" alt="" class="arrow-img">
     </div>
   </div>
 
@@ -163,12 +163,12 @@
     <div class="row g-0">
       <div class="col-md-6">
         <div class="card-body">
-          <h1 class="card-title">The transfer of real estate</h1>
+          <h1 class="card-title sm-fs-3">The transfer of real estate</h1>
           <p class="card-text fw-normal fs-6">Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit
             pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing
             quisque tellus scelerisque vehicula ante nunc. Tellus consequat nisl quis nisl justo.</p>
         </div>
-        <div class="d-flex g-4 number p-4 pt-5">
+        <div class="d-flex g-4 number p-4 sm-p-0 pt-5">
           <div class="g-4">
             <h1 class="fw-bolder text-black">12+</h1>
             <p>Customers</p>
@@ -183,12 +183,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 ">
-        <img src="Images/2main.png" class="img-fluid rounded-end float-end rounded" alt="...">
+      <div class="col-md-6">
+        <img src="Images/2main.jpg" class="img-fluid rounded-end float-end rounded" alt="..." style="height: 400px; width: 400px;">
       </div>
     </div>
-
-
   </div>
   </div>
 
@@ -198,7 +196,7 @@
       <div class="row g-0 section1">
         <div class="col-md-6">
           <div class="card-body">
-            <h1 class="fw-bolder text-black pb-4">Subscribe Our Newsletter </h1>
+            <h1 class="fw-bolder text-black pb-4 sm-fs-3">Subscribe Our Newsletter </h1>
             <p class="card-text pb-4">Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque
               sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus
               scelerisque vehicula ante nunc.</p>
@@ -214,6 +212,8 @@
       </div>
     </div>
   </div>
+
+  
 
   <script src="bootstrap.js"></script>
 </body>

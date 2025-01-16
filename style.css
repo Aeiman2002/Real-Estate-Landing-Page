@@ -26,6 +26,7 @@ body{
 .btn-form {
     gap: 10px !important;
 }
+
 .landing-page {
     box-sizing: border-box !important;
     
@@ -72,20 +73,72 @@ p{
     padding: 80px 0 0 30px;
 }
 .card-title{
-    font-size: 39px;
+    font-size: 36px;
     font-weight: 600;
     color: black;
 }
 .card-text{
+    font-size: 16px;
     color: black;
+}
+.lastsection{
+    background-image: linear-gradient(#C1DEE8,#FBD9B9);
+    height: 430px;
+    
+
+}
+.building{
+    width: 550px;
+    margin-left: 100px;
+    margin-top: -43px;
+    
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) { 
 
-    nav{
+    .nav{
         border: none !important;
         border-radius: 0px !important;
         background-color: white !important;
     }
-    
+    .email-input{
+        padding: .375rem .75rem !important;
+        width: 200px;
+        height: 50px;
+        font-size: 1rem !important;
+        font-weight: 100 !important;
+        line-height: 1.5 !important;
+        color: var(--bs-body-color) !important;
+        background-color: var(--bs-body-bg);
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    .btn-part{
+        position: absolute;
+        height: 50px;
+        font-size: 6px;
+    }
+    ul{
+        background-color: white !important;
+        border: none;
+        border-radius: 0;
+    }
+    h1{
+        font-size: 24px !important;
+    }
+    p{
+        font-size: 12px;
+    }
+    .arrow-img{
+        height: 50px;
+    }
+    .number{
+        gap: 0px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    /* .last-part-nav{
+        align-items: center;
+    } */
 }
