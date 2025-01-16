@@ -116,8 +116,8 @@ p{
     .btn-part{
         position: absolute;
         height: 50px;
-        font-size: 16px;
-        width: 120px;
+        font-size: 12px;
+        width: 100px;
     }
     ul{
         background-color: white !important;
