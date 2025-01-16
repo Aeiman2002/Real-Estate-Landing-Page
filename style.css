@@ -2,6 +2,7 @@
     font-family: "Poppins";
     src: url(Font/Poppins-Regular.ttf);
 }
+
 body{
     font-family: poppins;
 }
@@ -9,7 +10,9 @@ body{
     padding: 5px 10px 5px 10px !important;
     width: 100% !important;
 }
-
+.navbar-set{
+    width: 100% !important;
+}
 .navbar-nav {
     gap: 10px !important;
 }
@@ -26,6 +29,12 @@ body{
 .landing-page {
     box-sizing: border-box !important;
     
+}
+.main-heading{
+    font-size: 67px;
+}
+p{
+    font-size: 16px;
 }
 .email-input{
     padding: .375rem .75rem !important;
@@ -69,9 +78,8 @@ body{
 }
 .card-text{
     color: black;
-    
 }
-h1{}
+
 @media screen and (min-width: 0px) and (max-width: 576px) { 
 
     nav{
