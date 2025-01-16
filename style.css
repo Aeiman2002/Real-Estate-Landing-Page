@@ -116,7 +116,7 @@ p{
     .btn-part{
         position: absolute;
         height: 50px;
-        font-size: 12px;
+        font-size: 10px !important;
     }
     ul{
         background-color: white !important;
