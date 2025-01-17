@@ -138,4 +138,7 @@ p{
         padding: 0;
         text-align: left;
     }
+    .last-part-nav{
+        align-items: center;
+    }
 }
