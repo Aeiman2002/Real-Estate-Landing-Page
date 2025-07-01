@@ -1,4 +1,10 @@
 🏡 Real Estate Landing Page
+
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/c0a1eaa3-9084-4d8d-b65f-ba5e66b8d293)
 
 🌟 About the Project
